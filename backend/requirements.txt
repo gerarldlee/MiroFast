@@ -1,0 +1,37 @@
+# ===========================================
+# MiroFast Backend Dependencies
+# ===========================================
+# Python 3.11+ required
+# Install: pip install -r requirements.txt
+# ===========================================
+
+# Decision engine (System 1: action choice, stance, sentiment, moderation)
+laya>=0.3.11
+
+
+flask>=3.0.0
+flask-cors>=6.0.0
+
+
+openai>=1.0.0
+requests>=2.28.0
+
+
+neo4j>=5.15.0
+
+
+camel-oasis==0.2.5
+camel-ai==0.2.78
+mcp==1.9.4
+
+
+PyMuPDF>=1.24.0
+
+charset-normalizer>=3.0.0
+chardet>=5.0.0
+
+
+python-dotenv>=1.0.0
+
+
+pydantic>=2.0.0
